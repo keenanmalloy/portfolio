@@ -81,10 +81,10 @@ export const getStaticProps: GetStaticProps<Props> = async () => {
 
   return {
     props: {
-      pageInfo,
-      skills,
-      projects,
-      socials,
+      pageInfo: pageInfo ?? null,
+      skills: skills ?? null,
+      projects: projects ?? null,
+      socials: socials ?? null,
     },
     revalidate: 10,
   };
