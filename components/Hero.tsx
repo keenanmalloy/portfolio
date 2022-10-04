@@ -25,7 +25,7 @@ export default function Hero({ pageInfo }: Props) {
         options={{
           strings: [
             `Hi, my name is ${pageInfo?.name}.`,
-            "Junior Web Developer.",
+            "Junior Software Developer.",
           ],
           autoStart: true,
           loop: true,
