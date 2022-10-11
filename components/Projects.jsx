@@ -2,6 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import Project from "./Project";
+import { SocialIcon } from "react-social-icons";
 
 export default function Projects() {
   return (
@@ -19,6 +20,7 @@ export default function Projects() {
         <Project
           projectImage="/trackedimage.PNG"
           projectTitle="Tracked"
+          projectLink={"https://tracked.gg/"}
           techImage={
             <div className="flex justify-evenly">
               <Image src="/reactLogo.svg" alt="" width={60} height={60} />
@@ -47,6 +49,15 @@ export default function Projects() {
             </div>
           }
           projectTitle="Macro App"
+          projectLink={"https://macro-app.vercel.app/"}
+          projectLinks={
+            <SocialIcon
+              className="cursor-pointer"
+              url="https://github.com/keenanmalloy/macro-app"
+              fgColor="gray"
+              bgColor="transparent"
+            />
+          }
           projectDescription="
 Track your macronutrient intake and visualize your diet progression with our mobile-first next.js app.
 "
@@ -62,6 +73,15 @@ Track your macronutrient intake and visualize your diet progression with our mob
             </div>
           }
           projectTitle="Fady's Fades Barbershop website"
+          projectLink={"https://fadys-fades-barbershop.vercel.app/"}
+          projectLinks={
+            <SocialIcon
+              className="cursor-pointer"
+              url="https://github.com/keenanmalloy/FadysFadesBarbershop"
+              fgColor="gray"
+              bgColor="transparent"
+            />
+          }
           projectDescription="
 Fady's Fades is a mobile design-first barber shop.
 "
@@ -84,6 +104,15 @@ Fady's Fades is a mobile design-first barber shop.
             </div>
           }
           projectTitle="Gmail clone"
+          projectLink={"https://clone-5a9e5.web.app/"}
+          projectLinks={
+            <SocialIcon
+              className="cursor-pointer"
+              url="https://github.com/keenanmalloy/gmaIl-clone"
+              fgColor="gray"
+              bgColor="transparent"
+            />
+          }
           projectDescription="
 A fully functional email client with full CRUD functionality, and Redux.
 "
@@ -105,6 +134,15 @@ A fully functional email client with full CRUD functionality, and Redux.
             </div>
           }
           projectTitle="LinkedIn clone"
+          projectLink={"https://linkedin-clone-ed38b.web.app/"}
+          projectLinks={
+            <SocialIcon
+              className="cursor-pointer"
+              url="https://github.com/keenanmalloy/linked-in-clone"
+              fgColor="gray"
+              bgColor="transparent"
+            />
+          }
           projectDescription="
 A LinkedIn clone with fully functional auth and CRUD functionalities.
 "
