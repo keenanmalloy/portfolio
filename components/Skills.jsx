@@ -14,22 +14,22 @@ export default function Skills() {
         Skills
       </h3>
       <div className="grid-cols-4 grid gap-5 ">
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
+        <Skill skillIcon="/reactLogo.svg" />
+        <Skill skillIcon="/nextjsLogo.svg" />
+        <Skill skillIcon="/tailwindcss.svg" />
+        <Skill skillIcon="/typescript-icon.svg" />
+        <Skill skillIcon="/postgresql.svg" />
+        <Skill skillIcon="/reactqueryLogo.svg" />
+        <Skill skillIcon="/nodejsLogo.svg" />
+        <Skill skillIcon="/file-type-css.svg" />
+        <Skill skillIcon="/file-type-html.svg" />
+        <Skill skillIcon="/javascript-js.svg" />
+        <Skill skillIcon="/redux-original.svg" />
+        <Skill skillIcon="/file-type-firebase.svg" />
+        <Skill skillIcon="/file-type-vscode.svg" />
+        <Skill skillIcon="/framer-logo.svg" />
+        <Skill skillIcon="/sanity.svg" />
+        <Skill skillIcon="/git.svg" />
       </div>
     </motion.div>
   );

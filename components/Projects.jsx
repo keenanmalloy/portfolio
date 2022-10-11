@@ -36,7 +36,7 @@ export default function Projects() {
           projectNumber={1}
         />
         <Project
-          projectImage="/macro-app.png"
+          projectImage="/macro-app.PNG"
           techImage={
             <div className="flex justify-evenly">
               <Image src="/reactLogo.svg" alt="" width={60} height={60} />
