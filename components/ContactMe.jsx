@@ -12,7 +12,7 @@ export default function ContactMe() {
       <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
         Contact
       </h3>
-      <div className="flex flex-col space-y-10">
+      <div className="flex flex-col space-y-5 sm:space-y-10">
         <h4 className="text-4xl font-semibold text-center">
           <span className="underline decoration-[#F7AB0A]/50">Lets Talk.</span>
         </h4>
@@ -65,7 +65,7 @@ export default function ContactMe() {
           />
           <button
             type="submit"
-            className="bg-[#F7AB0A] py-5 px-10 rounded-md text-black font-bold text-lg"
+            className="bg-[#F7AB0A] py-5 px-10  rounded-md text-black font-bold text-lg"
           >
             Submit
           </button>
