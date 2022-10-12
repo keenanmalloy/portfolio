@@ -17,7 +17,7 @@ export default function Hero() {
       />
       <Typewriter
         options={{
-          strings: [`Hi, my name is Keenan.`, "Junior Software Developer."],
+          strings: [`Hi, my name is Keenan.`, "Software Developer."],
           autoStart: true,
           loop: true,
           cursor: "|",
