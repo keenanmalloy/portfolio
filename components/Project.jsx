@@ -20,7 +20,7 @@ export default function Project({
             viewport={{ once: true }}
             src={projectImage}
             layout='fill'
-            className='object-contain max-h-40 sm:max-h-64'
+            className='object-contain max-h-32 sm:max-h-64'
           />
       </a>
       <div className="space-y-10 px-0 md:px-10 max-w-6xl ">
