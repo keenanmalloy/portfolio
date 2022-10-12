@@ -8,7 +8,7 @@ export default function ContactMe() {
     window.location.href = `mailto:malloyrkeenan@gmail?subject=${formData.subject}&body=Hi, my name is ${formData.name}. ${formData.message} (${formData.email})`;
   };
   return (
-    <div className="h-screen flex relative flex-col text-center md:text:left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center">
+    <div className="h-screen flex relative flex-col text-center md:text:left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center ">
       <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
         Contact
       </h3>
@@ -17,7 +17,7 @@ export default function ContactMe() {
           <span className="underline decoration-[#F7AB0A]/50">Lets Talk.</span>
         </h4>
 
-        <div className="space-y-10">
+        <div className="space-y-0 sm:space-y-10">
           <div className="flex items-center space-x-5 justify-center">
             <PhoneIcon className="text-[#F7AB0A] h-7 w-7 animate-pulse" />
             <p className="text-2xl">+17783848570</p>
@@ -36,7 +36,7 @@ export default function ContactMe() {
 
         <form
           onSubmit={handleSubmit(onSubmit)}
-          className="flex flex-col space-y-2 w-72 sm:w-fit mx-auto"
+          className="flex flex-col space-y-2 w-full mx-auto"
         >
           <div className="flex flex-col sm:flex-row space-y-2 sm:space-y-0  sm:space-x-2 justify-center ">
             <input
