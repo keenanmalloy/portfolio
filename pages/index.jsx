@@ -48,7 +48,7 @@ const Home = () => {
               className="rounded-full filter grayscale hover:grayscale-0 cursor-pointer"
               height={40}
               width={40}
-              src="/profilepic.jpg"
+              src="/aboutpic.jpeg"
               alt="profile picture"
             />
           </div>

@@ -21,6 +21,14 @@ export default function Projects() {
           projectImage="/trackedimage.PNG"
           projectTitle="Tracked"
           projectLink={"https://tracked.gg/"}
+          projectLinks={
+            <SocialIcon
+              className="cursor-pointer"
+              url="https://github.com/keenanmalloy/malloy-fitness"
+              fgColor="gray"
+              bgColor="transparent"
+            />
+          }
           techImage={
             <div className="flex justify-evenly">
               <Image src="/reactLogo.svg" alt="" width={60} height={60} />
@@ -114,7 +122,7 @@ Fady's Fades is a mobile design-first barber shop.
             />
           }
           projectDescription="
-A fully functional email client with full CRUD functionality, and Redux.
+A clone of the Gmail web app interface.
 "
           projectNumber={4}
         />
@@ -144,7 +152,7 @@ A fully functional email client with full CRUD functionality, and Redux.
             />
           }
           projectDescription="
-A LinkedIn clone with fully functional auth and CRUD functionalities.
+          A clone of the LinkedIn web app interface
 "
           projectNumber={5}
         />

@@ -9,8 +9,8 @@ export default function Hero() {
     <div className="h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden">
       <BackgroundCircles />
       <Image
-        src="/profilepic.jpg"
-        className="relative rounded-full  mx-auto object-cover"
+        src="/aboutpic.jpeg"
+        className="relative rounded-full  mx-auto object-cover object-top"
         alt="image"
         height={128}
         width={128}
@@ -21,8 +21,8 @@ export default function Hero() {
           autoStart: true,
           loop: true,
           cursor: "|",
-          cursorClassName: "text-[#F7AB0A] text-5xl lg:text-6xl",
-          wrapperClassName: "text-5xl lg:text-6xl font-semibold scroll-px-10 ",
+          cursorClassName: "text-[#F7AB0A] text-4xl lg:text-6xl",
+          wrapperClassName: "text-4xl lg:text-6xl font-semibold scroll-px-10 ",
         }}
       />
 

@@ -1,0 +1,102 @@
+{
+  "selectedTemplate": 1,
+  "headings": {
+    "projects": "Projects",
+    "awards": "",
+    "skills": "Skills"
+  },
+  "basics": {
+    "name": "Keenan Malloy",
+    "email": "malloyrkeenan@gmail.com",
+    "phone": "7783848570",
+    "location": {
+      "address": "Vancouver, BC"
+    },
+    "website": "https://portfolio-website-five-eta.vercel.app/  https://github.com/keenanmalloy  https://www.linkedin.com/in/keenanmalloy/"
+  },
+  "education": [{}],
+  "work": [
+    {
+      "company": "",
+      "location": "",
+      "position": "",
+      "website": "",
+      "startDate": "",
+      "endDate": "",
+      "highlights": [""]
+    }
+  ],
+  "skills": [
+    {
+      "level": "",
+      "keywords": [
+        "Javascript",
+        "HTML",
+        "CSS",
+        "ReactJs",
+        "TailwindCSS",
+        "NodeJs"
+      ],
+      "name": "Languages and Technologies"
+    },
+    {
+      "keywords": [""]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Tracked",
+      "keywords": [
+        "ReactJs",
+        "NextJs",
+        "Postgresql",
+        "TailwindCss",
+        "Node",
+        "React Query"
+      ],
+      "description": "Data Driven Logbook Tracker ",
+      "url": "https://tracked.gg/"
+    },
+    {
+      "keywords": ["ReactJs", "NextJs", "TailwindCSS", "Postgresql"],
+      "name": "Macro App",
+      "description": "Macro tracker ",
+      "url": "https://macro-app.vercel.app/"
+    },
+    {
+      "keywords": ["ReactJs", "NextJs", "TailwindCSS"],
+      "name": "Fady's Fades Website",
+      "description": "Barber shop website designed mobile first",
+      "url": "https://fadys-fades-barbershop.vercel.app/"
+    },
+    {
+      "keywords": ["ReactJs", "Redux", "CSS", "Firebase", "React Router"],
+      "name": "Gmail Clone",
+      "description": "Gmail Interface Clone",
+      "url": "https://clone-5a9e5.web.app/"
+    },
+    {
+      "keywords": ["ReactJs", "Redux", "CSS", "Firebase"],
+      "name": "LinkedIn Clone",
+      "description": "LinkedIn Interface Clone",
+      "url": "https://linkedin-clone-ed38b.web.app/"
+    }
+  ],
+  "awards": [
+    {
+      "title": "",
+      "date": "",
+      "awarder": "",
+      "summary": ""
+    }
+  ],
+  "sections": [
+    "templates",
+    "profile",
+    "education",
+    "work",
+    "skills",
+    "projects",
+    "awards"
+  ]
+}
