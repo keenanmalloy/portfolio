@@ -27,10 +27,11 @@ export default function About() {
           background
         </h4>
         <p className="text-base">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni eius
-          laboriosam tempore, unde deserunt numquam quis necessitatibus? Maiores
-          excepturi voluptatibus, porro quisquam, nulla unde repellendus
-          corrupti dicta pariatur quidem necessitatibus.
+          Im Keenan. I started learning web development in the summer of 2020. I
+          have been working with React, Next.js, Tailwind, Node.js, and
+          Postgresql. I am looking to get into a new role where I can learn and
+          grow. I am looking for a team that I can work with to create something
+          amazing.
         </p>
       </div>
     </motion.div>
